@@ -34,7 +34,7 @@ header {
 .header-wrap img {
 	
 	width: 100%;
-	height: 110%;
+	height: auto;
 } 
 
 .header-content {
@@ -80,9 +80,10 @@ header {
 .apple-content {
 	padding-top: 7%;
 	padding-bottom: 7%;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 22%;
+	padding-right: 22%;
 	color: #ffffff;
+	
 
 }
 
@@ -114,6 +115,9 @@ header {
 
 
 /** Superior quality start **/
+#superior-wrap {
+	background-color: #222222;
+}
 
 .container-overflow {
 	margin-left: -15px;
@@ -141,7 +145,7 @@ header {
 	color: #ffffff;
 }
 
-#test-btn {
+#bootstrap-overides #test-btn {
 	background-color: #ffffff;
 }
 /** superior quality end **/
@@ -194,6 +198,9 @@ header {
  	color: #9acd32;
  }
 
+#sanity-btn {
+	color: #ffffff;
+}
 /** Sanity check end **/
 
 
@@ -228,3 +235,16 @@ header {
 }
 
 /** Footer end **/
+
+
+
+
+/** Media queries start **/
+
+@media and screen only {
+
+}
+
+
+
+/** Media queries end **/
