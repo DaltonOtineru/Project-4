@@ -83,6 +83,7 @@ header {
 	padding-left: 5%;
 	padding-right: 5%;
 	color: #ffffff;
+
 }
 
 .apple-header {
@@ -102,6 +103,10 @@ header {
 
 .microphone {
 	border-radius: 50%;
+}
+
+#classify-btn {
+	color: #ffffff;
 }
 
 
@@ -136,6 +141,9 @@ header {
 	color: #ffffff;
 }
 
+#test-btn {
+	background-color: #ffffff;
+}
 /** superior quality end **/
 
 
@@ -167,6 +175,10 @@ header {
 	font-weight: 300;
 
 }
+
+.grid-img {
+	opacity: 0.8;
+}
 /** Picture grid starts **/
 
 
@@ -174,7 +186,13 @@ header {
 
 
 /** Sanity check starts **/
+ .sanity-content {
+ 	padding: 5%;
+ }
 
+ #tack {
+ 	color: #9acd32;
+ }
 
 /** Sanity check end **/
 
@@ -183,15 +201,30 @@ header {
 
 
 /** Contact starts **/
+.contact-container {
+	background-color: #9acd32;
+	
+}
+
+.contact-content {
+	line-height: 2.5;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	color: #ffffff;
+}
+
 
 
 /** Contact end **/
 
 
 
-
-
 /** Footer start **/
 
+.copyright {
+	padding-top: 4%;
+	padding-bottom: 2%;
+	font-weight: 300;
+}
 
 /** Footer end **/
