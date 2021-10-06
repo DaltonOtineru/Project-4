@@ -14,6 +14,11 @@
 	letter-spacing: 0.5em;
 }
 
+#bootstrap-overides .nav-item .nav-link:hover {
+	color: #9acd32;
+
+}
+
 #ws-nav {
 	border-bottom: solid 0.25px #ffffff;
 }
@@ -23,35 +28,46 @@
 
 header {
 	background-size: cover;
-}
-
-.header-wrap {
+	background-image: url(img/mountains.jpeg);
 	position: relative;
-	text-align: center;
-	color:  white;
-}
-
-.header-wrap img {
-	
 	width: 100%;
-	height: auto;
-} 
+	background-position: center;
+	text-align: center;
+	display: inline-block;
+	height: 50vh;
+
+}
 
 .header-content {
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
 	
+
+	}
+
+
+
+
+.header-content-inner {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	color: #ffffff;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	transform: translateY(50%);
+	bottom: 40%;
+		
 }
+	
+	
+	
 
-
-.header-head {
-	letter-spacing: 0.25em;
+#header-head {
+	
 	font-size: 60px;
-	font-weight: 300;
+	font-weight: 200;
 	display: inline-block;
+	
 }
 
 .header-p {
@@ -80,8 +96,8 @@ header {
 .apple-content {
 	padding-top: 7%;
 	padding-bottom: 7%;
-	padding-left: 22%;
-	padding-right: 22%;
+	padding-left: 10px;
+	padding-right: 10px;
 	color: #ffffff;
 	
 
@@ -182,6 +198,8 @@ header {
 
 .grid-img {
 	opacity: 0.8;
+	width: 100%;
+	height: auto;
 }
 /** Picture grid starts **/
 
@@ -241,10 +259,45 @@ header {
 
 /** Media queries start **/
 
-@media and screen only {
+@media only screen and (min-width: 768px) {
+	
+	/** Header start **/
+
+	#bootstrap-overides header {
+		height: 100vh;
+	}
+
+
+	.header-head {
+		
+		font-size: 100px;
+		font-weight: 200;
+		display: inline-block;
+		letter-spacing: 0.25em;
+		
+	}
+
+	.header-content-inner {
+		bottom: 50%;
+	}
+
+	/** Header End **/
+
+
+	/** Apple start **/
+
+	 .apple-content {
+		padding-left: 22%;
+		padding-right: 22%;
+	}
+
+	/** Apple end **/
 
 }
 
 
 
+
 /** Media queries end **/
+
+
