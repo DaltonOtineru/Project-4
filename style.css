@@ -34,19 +34,10 @@ header {
 	width: 100%;
 	background-position: center;
 	text-align: center;
-	display: inline-block;
 	height: 50vh;
 
 }
-
-.header-content {
 	
-
-	}
-
-
-
-
 .header-content-inner {
 	width: 100%;
 	position: absolute;
@@ -71,9 +62,6 @@ header {
 	
 }
 
-.header-p {
-
-}
 
 #bootstrap-overides .btn {
 	background-color: #9acd32;
@@ -206,13 +194,13 @@ header {
 	width: 100%;
 	height: auto;
 }
+
 /** Picture grid starts **/
 
 
 
-
-
 /** Sanity check starts **/
+
  .sanity-content {
  	padding: 5%;
  }
@@ -224,13 +212,15 @@ header {
 #sanity-btn {
 	color: #ffffff;
 }
+
+
 /** Sanity check end **/
 
 
 
-
-
 /** Contact starts **/
+
+
 .contact-container {
 	background-color: #9acd32;
 	
@@ -258,8 +248,6 @@ header {
 }
 
 /** Footer end **/
-
-
 
 
 /** Media queries start **/
@@ -304,5 +292,13 @@ header {
 
 
 /** Media queries end **/
+
+
+
+
+
+
+
+
 
 
